@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="header"></div>
+
+    <section class="comingsoon-container">
+        <div class="comingsoon-width-container">
+            <div class="comingsoon-content">
+                <div class="comingsoon-top-content">
+                    <h2>Introducing our newly released burger</h2>
+                    <video controls src="./videos/teaser.mp4"></video>
+                </div>
+                <div class="comingsoon-bot-content">
+                    <h2>Coming Soon</h2>
+                    <div class="slideshow-container">
+                        <div class="slideshow">
+                            <div id="slide-1" class="slide">
+                                <a href="#slide-7"></a>
+                                <a href="#slide-2"></a>
+                                <img src="./images/comingsoon1.jpeg" />
+                            </div>
+                            <div id="slide-2" class="slide">
+                                <a href="#slide-1"></a>
+                                <a href="#slide-3"></a>
+                                <img src="./images/comingsoon2.jpeg" />
+                            </div>
+                            <div id="slide-3" class="slide">
+                                <a href="#slide-2"></a>
+                                <a href="#slide-4"></a>
+                                <img src="./images/comingsoon3.jpeg" />
+                            </div>
+                            <div id="slide-4" class="slide">
+                                <a href="#slide-3"></a>
+                                <a href="#slide-5"></a>
+                                <img src="./images/comingsoon4.jpeg" />
+                            </div>
+                        </div>
+                        <div class="pagination">
+                            <a href="#slide-1"><span>1</span></a>
+                            <a href="#slide-2"><span>2</span></a>
+                            <a href="#slide-3"><span>3</span></a>
+                            <a href="#slide-4"><span>4</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        $(document).ready(function () {
+            $("#header").load("header.html");
+        });
+    </script>
+</body>
+
+</html>

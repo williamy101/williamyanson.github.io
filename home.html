@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <title>Web Design Quiz</title>
+</head>
+
+<body>
+    
+    <div id="header"></div> 
+
+    <section class="content-container">
+        <div class="content-width-container">
+            <div class="content">
+                <div class="text-wrapper">
+                    <h1>Party Burger Deals!!</h1>
+                    <p>You want to buy for yourself? Your friends? Your whole family? All kinds of promos and burger 
+                        bundles are available at Party Burger Deals in November~
+                        Hurry up and order the Party Burger Deals!! Promo only available until the end of month.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                        Ad consequatur ea ab laudantium
+                        pariatur iusto alias est vero consequuntur eum! Minima
+                        soluta ad architecto possimus voluptatem quia velit quibusdam laborum.
+                    </p>
+                </div>
+                <div class="button-wrapper">
+                    <a href="menu.html" class="button-menu">
+                        Our Menu
+                    </a>
+                </div>
+
+            </div>
+            <div class="content-image">
+                <img src="./images/burger.png" alt="Burger">
+            </div>
+        </div>
+    </section>
+    <section class="promo-container">
+        <div class="promo-width-container">
+            <h1 class="promo-title">Promotions</h1>
+            <div class="promo">
+                <div class="promo-banner one">
+                    <!-- <a href="">Order Now</a> -->
+                    <img class="image-banner" src="./images/promobanner1.jpg" alt="Burger">
+                </div>
+                <div class="promo-banner two">
+                    <!-- <a href="">Order Now</a> -->
+                    <img class="image-banner" src="./images/promobanner2.jpg" alt="Burger">
+                </div>
+                <div class="promo-banner three">
+                    <!-- <a href="">Order Now</a> -->
+                    <img class="image-banner" src="./images/promobanner3.png" alt="Burger">
+                </div>
+                <div class="promo-banner four">
+                    <!-- <a href="">Order Now</a> -->
+                    <img class="image-banner" src="./images/promobanner4.jpg" alt="Burger">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        $(document).ready(function(){
+            $("#header").load("header.html");
+        });
+    </script>
+
+</body>
+
+</html>
